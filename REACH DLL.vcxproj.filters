@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\D3D">
+      <UniqueIdentifier>{bf8eabf4-c66e-4569-92ab-40fcec470c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Vector">
+      <UniqueIdentifier>{2db06f13-2249-4701-ac97-be67bf9f1fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Skin">
+      <UniqueIdentifier>{fa5562c0-6f22-482a-9f41-2fe3353f0b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BreakPoint">
+      <UniqueIdentifier>{67b9dda3-599c-4623-b163-a892e4597252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config">
+      <UniqueIdentifier>{a63fc412-d0fa-4325-b23a-1730fa57fd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Kernel">
+      <UniqueIdentifier>{1f6e6331-c5d5-44c9-b815-af762b3cfb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component">
+      <UniqueIdentifier>{c8059f54-b7c1-4e40-8707-36e236d9a465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Misc">
+      <UniqueIdentifier>{dab8952d-c906-4de0-83a6-41463e21dfa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Memory Utils">
+      <UniqueIdentifier>{dcf60a3e-cd0b-44a3-8141-05485a64d161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Menu">
+      <UniqueIdentifier>{827d97fe-8d5c-4556-b788-a5aa124b664d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Offset">
+      <UniqueIdentifier>{e4995333-b536-47b0-ada6-d964e6c77d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{61318333-81b4-4705-b96c-c7fa5e1f9f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Spoof">
+      <UniqueIdentifier>{622e78cd-e217-42ee-9b6c-a32ba6ef1af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Encrypt">
+      <UniqueIdentifier>{897ae1bc-697b-4fd5-bfbc-5bf7274f81aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3dhook.h">
+      <Filter>Source\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="dxgioffsets.h">
+      <Filter>Source\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Source\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Source\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Source\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Source\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Source\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin\BotUtils.h">
+      <Filter>Source\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakPoint.h">
+      <Filter>Source\BreakPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin\Heroes.h">
+      <Filter>Source\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Source\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="communication.hpp">
+      <Filter>Source\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="kernelinterface.hpp">
+      <Filter>Source\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="gamedata.hpp">
+      <Filter>Source\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Source\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Source\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypter.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SendInput.h">
+      <Filter>Source\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Source\Memory Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Source\Offset</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoofcall.h">
+      <Filter>Source\Spoof</Filter>
+    </ClInclude>
+    <ClInclude Include="sha256.h">
+      <Filter>Source\Encrypt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Source\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="dxgioffsets.cpp">
+      <Filter>Source\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dhook.cpp">
+      <Filter>Source\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin\Heroes.cpp">
+      <Filter>Source\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="sha256.cpp">
+      <Filter>Source\Encrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Spoofcall.masm">
+      <Filter>Source\Spoof</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
